@@ -1,0 +1,6 @@
+framework module NbtPingStart {
+  umbrella header "NbtPingStart.h"
+
+  export *
+  module * { export * }
+}
