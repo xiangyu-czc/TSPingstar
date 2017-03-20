@@ -56,14 +56,21 @@ end
 #end
 
 
-s.subspec 'MopubAdapter' do |mp|
-mp.source_files = 'MopubAdapter.framework/Headers/*.h'
-mp.preserve_paths  = 'MopubAdapter.framework'
-mp.public_header_files  = 'MopubAdapter.framework/Headers/*.h'
-mp.ios.vendored_frameworks  = 'MopubAdapter.framework'
+#s.subspec 'MopubAdapter' do |mp|
+#mp.source_files = 'MopubAdapter.framework/Headers/*.h'
+#mp.preserve_paths  = 'MopubAdapter.framework'
+#mp.public_header_files  = 'MopubAdapter.framework/Headers/*.h'
+#mp.ios.vendored_frameworks  = 'MopubAdapter.framework'
+#end
+
+
+s.subspec 'VungleAdapter' do |vg|
+vg.source_files = 'VungleAdapter.framework/Headers/*.h'
+vg.preserve_paths  = 'VungleAdapter.framework'
+vg.public_header_files  = 'VungleAdapter.framework/Headers/*.h'
+vg.ios.vendored_frameworks  = 'VungleAdapter.framework'
+vg.dependency 'VungleSDK-iOS'
 end
-
-
 
 
 
