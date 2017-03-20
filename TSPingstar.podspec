@@ -18,7 +18,7 @@ s.requires_arc = true
 #s.libraries = 'z'
 
 s.default_subspecs = 'Default'
-ss.source_files = 'TSPingstar/NbtPingStart.framework/Headers/*.h'
+ss.source_files = 'NbtPingStart.framework/Headers/*.h'
 s.subspec 'Default' do |ss|
 ss.preserve_paths  = 'NbtPingStart.framework'
 ss.public_header_files  = 'NbtPingStart.framework/Headers/*.h'
