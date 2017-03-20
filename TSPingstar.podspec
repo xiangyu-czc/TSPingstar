@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "TSPingstar"
-s.version          = "1.0.14"
+s.version          = "1.0.15"
 s.summary          = "PSSDK dev version"
 s.homepage         = "https://github.com/xiangyu-czc/TSPingstar"
 s.license          = 'MIT'
@@ -36,6 +36,7 @@ end
 #am.dependency 'Firebase/AdMob'
 #end
 
+
 #s.subspec 'FacebookAdapter' do |fb|
 #fb.source_files = 'FacebookAdapter.framework/Headers/*.h'
 #fb.preserve_paths  = 'FacebookAdapter.framework'
@@ -45,12 +46,22 @@ end
 #fb.dependency 'FBSDKCoreKit'
 #end
 
-s.subspec 'AdcolonyAdapter' do |cy|
-cy.source_files = 'AdcolonyAdapter.framework/Headers/*.h'
-cy.preserve_paths  = 'AdcolonyAdapter.framework'
-cy.public_header_files  = 'AdcolonyAdapter.framework/Headers/*.h'
-cy.ios.vendored_frameworks  = 'AdcolonyAdapter.framework'
-cy.dependency 'AdColony'
+
+#s.subspec 'AdcolonyAdapter' do |cy|
+#cy.source_files = 'AdcolonyAdapter.framework/Headers/*.h'
+#cy.preserve_paths  = 'AdcolonyAdapter.framework'
+#cy.public_header_files  = 'AdcolonyAdapter.framework/Headers/*.h'
+#cy.ios.vendored_frameworks  = 'AdcolonyAdapter.framework'
+#cy.dependency 'AdColony'
+#end
+
+
+s.subspec 'MopubAdapter' do |mp|
+mp.source_files = 'MopubAdapter.framework/Headers/*.h'
+mp.preserve_paths  = 'MopubAdapter.framework'
+mp.public_header_files  = 'MopubAdapter.framework/Headers/*.h'
+mp.ios.vendored_frameworks  = 'MopubAdapter.framework'
+mp.dependency 'MoPubSDK'
 end
 
 

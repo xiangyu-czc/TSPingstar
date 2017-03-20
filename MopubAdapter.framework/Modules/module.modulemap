@@ -1,0 +1,6 @@
+framework module MopubAdapter {
+  umbrella header "MopubAdapter.h"
+
+  export *
+  module * { export * }
+}
