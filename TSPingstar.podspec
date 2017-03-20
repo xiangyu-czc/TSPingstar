@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "TSPingstar"
-s.version          = "1.0.3"
+s.version          = "1.0.5"
 s.summary          = "PSSDK dev version"
 s.homepage         = "https://github.com/xiangyu-czc/TSPingstar"
 s.license          = 'MIT'
@@ -25,6 +25,15 @@ ss.preserve_paths  = 'NbtPingStart.framework'
 ss.public_header_files  = 'NbtPingStart.framework/Headers/*.h'
 ss.ios.vendored_frameworks  = 'NbtPingStart.framework'
 end
+
+
+s.subspec 'AdMobAdapter' do |am|
+am.source_files = 'AdMobAdapter.framework/Headers/*.h'
+am.preserve_paths  = 'AdMobAdapter.framework'
+am.public_header_files  = 'AdMobAdapter.framework/Headers/*.h'
+am.ios.vendored_frameworks  = 'AdMobAdapter.framework'
+end
+
 
 end
 
