@@ -23,5 +23,5 @@
 /**
   It is not nil if the native ad has been successfully loaded
  */
-@property(nonatomic,strong,nullable)PSNativeAd *nativeAd;
+@property(nonatomic,readonly,nullable)PSNativeAd *nativeAd;
 @end
