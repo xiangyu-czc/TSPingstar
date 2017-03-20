@@ -1,0 +1,6 @@
+framework module AdcolonyAdapter {
+  umbrella header "AdcolonyAdapter.h"
+
+  export *
+  module * { export * }
+}
