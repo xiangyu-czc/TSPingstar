@@ -8,6 +8,7 @@
 
 #import "PSBaseView.h"
 #import "PSNativeDelegate.h"
+#import "PSNativeAd.h"
 
 /**
  Native ad View
@@ -18,4 +19,9 @@
  PSNativeDelegate
  */
 @property(nonatomic,weak,nullable)id<PSNativeDelegate> delegate;
+
+/**
+  It is not nil if the native ad has been successfully loaded
+ */
+@property(nonatomic,readonly,nullable)PSNativeAd *nativeAd;
 @end
