@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "TSPingstar"
-s.version          = "1.0.8"
+s.version          = "1.0.9"
 s.summary          = "PSSDK dev version"
 s.homepage         = "https://github.com/xiangyu-czc/TSPingstar"
 s.license          = 'MIT'
