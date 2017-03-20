@@ -23,8 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
  Native is loaded,You can now customize the view to display ad data.
  
  @param view PSNativeView
+ @param nativeAd PSNativeAd
  */
--(void)psAdViewNativeDidLoad:(PSNativeView*)view;
+-(void)psAdViewNative:(PSNativeView*)view didLoadWithNativeAd:(PSNativeAd*)nativeAd;
 
 @end
 

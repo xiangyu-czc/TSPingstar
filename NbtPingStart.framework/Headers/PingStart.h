@@ -23,13 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 +(void)enableDebug:(BOOL)debug;
 
 /**
- defualt NO
- 
- @param enable Test Ad
- */
-+(void)enableTestAd:(BOOL)enable;
-
-/**
  Ping Start SDK version
  
  @return version
