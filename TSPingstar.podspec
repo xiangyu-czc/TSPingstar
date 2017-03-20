@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "TSPingstar"
-s.version          = "1.0.12"
+s.version          = "1.0.13"
 s.summary          = "PSSDK dev version"
 s.homepage         = "https://github.com/xiangyu-czc/TSPingstar"
 s.license          = 'MIT'
@@ -42,7 +42,7 @@ fb.preserve_paths  = 'FacebookAdapter.framework'
 fb.public_header_files  = 'FacebookAdapter.framework/Headers/*.h'
 fb.ios.vendored_frameworks  = 'FacebookAdapter.framework'
 fb.dependency 'FBAudienceNetwork'
-
+fb.dependency 'FBSDKCoreKit'
 end
 
 
