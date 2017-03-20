@@ -61,7 +61,6 @@ mp.source_files = 'MopubAdapter.framework/Headers/*.h'
 mp.preserve_paths  = 'MopubAdapter.framework'
 mp.public_header_files  = 'MopubAdapter.framework/Headers/*.h'
 mp.ios.vendored_frameworks  = 'MopubAdapter.framework'
-mp.dependency 'MoPubSDK'
 end
 
 
